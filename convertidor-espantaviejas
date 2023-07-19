@@ -1,0 +1,14 @@
+import random
+print("***********************************************") 
+print("*                                             *")
+print("*  ¡Bienvenido al convertidor espantaviejas!  *")
+print("*            \Hecho por Lorens_Art/           *")
+print("*                                             *")
+print("***********************************************")
+print("*                                             *")
+lista = ["aña", "mi tilina", "wasaaa", "ankara messi", "siuuuuuuuuuuuuu", " UwU", "el pepe", "ete sech", "eso tilin", "potasio", ":v"]
+res = input("Texto original: ")
+guarde = res
+aleatorio = random.choice(lista)
+print("")
+print("Espantavertido:", guarde, aleatorio)
